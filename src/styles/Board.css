@@ -1,0 +1,27 @@
+.board {
+  display: flex;
+  flex-wrap: wrap; /* Ensures cards wrap properly */
+  justify-content: center;
+  gap: 5px; /* Reduce gap between cards */
+  padding: 10px;
+  max-width: 400px; /* Adjust the width to control card positioning */
+  margin: auto;
+}
+
+.card {
+  width: 60px;
+  height: 60px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  margin: 3px; /* Reduce spacing further */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}

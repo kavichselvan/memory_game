@@ -1,0 +1,35 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+  color: #333;
+}
+
+.game-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ff758c;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #4CAF50;
+  font-size: 24px;
+  font-weight: bold;
+}

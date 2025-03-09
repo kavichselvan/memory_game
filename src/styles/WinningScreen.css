@@ -1,0 +1,41 @@
+/* styles/WinningScreen.css */
+.winning-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #4CAF50, #45A049);
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.winning-screen h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.winning-screen p {
+  font-size: 1.5rem;
+  margin: 8px 0;
+}
+
+.restart-button {
+  background: #FFD700;
+  color: black;
+  padding: 15px 40px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.restart-button:hover {
+  background: #FFC300;
+  transform: scale(1.05);
+}

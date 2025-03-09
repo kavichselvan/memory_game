@@ -1,0 +1,13 @@
+.card {
+  width: 75px; /* Slightly smaller for tighter layout */
+  height: 75px;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: 2px solid #ddd;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  border-radius: 6px;
+}
