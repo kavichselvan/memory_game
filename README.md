@@ -15,7 +15,7 @@ npm install
 npm run dev
 
 🌍 Live Demo
-Netlify Deployment Link
+Netlify Deployment Link = https://memorygamm.netlify.app/
 
 💡 Tech Stack
 React.js
